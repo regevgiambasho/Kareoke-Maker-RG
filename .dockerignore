@@ -1,0 +1,8 @@
+.git/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.karaoke_maker_v2/
+input_media/
+.env
