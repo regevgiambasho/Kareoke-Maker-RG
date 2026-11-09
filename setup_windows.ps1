@@ -42,4 +42,4 @@ $python = Join-Path $PWD ".venv\Scripts\python.exe"
 & $python -m pip install -r requirements.txt
 
 Write-Host ""
-Write-Host "Setup complete. Run .\run_windows.bat" -ForegroundColor Green
+Write-Host "Setup complete. Run .\run_windows.bat (or .\run_lan_windows.bat for phone access on Wi-Fi)" -ForegroundColor Green

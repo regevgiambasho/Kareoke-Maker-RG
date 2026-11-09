@@ -9,4 +9,11 @@ if not exist ".venv\Scripts\python.exe" (
   exit /b 1
 )
 
-".venv\Scripts\python.exe" -m streamlit run app.py
+echo.
+echo Starting Karaoke Maker...
+echo Open in your browser: http://localhost:8501
+echo.
+
+rem launcher.py mounts the chunked-upload routes on the same port as the UI.
+".venv\Scripts\python.exe" launcher.py
+pause

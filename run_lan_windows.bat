@@ -18,7 +18,6 @@ echo To find YOUR-PC-IP, run: ipconfig
 echo Look for IPv4 Address on your Wi-Fi adapter.
 echo.
 
-".venv\Scripts\python.exe" -m streamlit run app.py ^
-  --server.address 0.0.0.0 ^
-  --server.port 8501 ^
-  --server.headless true
+rem launcher.py listens on 0.0.0.0:8501 and mounts the chunked-upload routes.
+".venv\Scripts\python.exe" launcher.py
+pause
