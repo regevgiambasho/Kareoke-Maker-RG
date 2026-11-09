@@ -1,0 +1,6 @@
+{
+  "name": "Karaoke Maker V2",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "forwardPorts": [8501],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg libsndfile1 libgomp1 fonts-dejavu-core fontconfig && python -m pip install --upgrade pip && python -m pip install -r requirements.txt"
+}

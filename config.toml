@@ -1,0 +1,13 @@
+[theme]
+base = "dark"
+primaryColor = "#8B5CF6"
+backgroundColor = "#09090F"
+secondaryBackgroundColor = "#15151F"
+textColor = "#F5F5F7"
+font = "sans serif"
+paddingTop = "1rem"
+paddingBottom = "2rem"
+
+[server]
+maxUploadSize = 1024
+maxMessageSize = 1024

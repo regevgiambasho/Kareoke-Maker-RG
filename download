@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime / generated media
+.karaoke_maker_v2/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.ass
+
+# Logs
+*.log
+
+# Large local input media
+input_media/
