@@ -66,6 +66,13 @@ This avoids reversed Hebrew word order and left-to-right highlight progression.
 - Smart output filenames
 - FFmpeg rendering progress
 
+## Run in Google Colab (no local install)
+
+Open [`colab/Karaoke_Maker_Colab.ipynb` in Colab](https://colab.research.google.com/github/regevgiambasho/Kareoke-Maker-RG/blob/main/colab/Karaoke_Maker_Colab.ipynb),
+select **Runtime → Change runtime type → T4 GPU**, run step 1 (install) and step 2
+(start), then click **Open Karaoke Maker**. Colab sessions are temporary: download
+finished videos before closing the tab.
+
 ## Run in GitHub Codespaces
 
 The repository includes a Python 3.11 devcontainer.
